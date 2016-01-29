@@ -1,0 +1,79 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #F9FCFC;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.outer, .inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.sender, .time {
+  display: inline-block;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.time {
+  font-size: small;
+  color: #5BABB4;
+}
+
+.message {
+  color: #385A65 !important;
+  margin-bottom: 20px;
+}
+
+.messages {
+  padding: 15px;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  height: 0;
+}
+
+.text {
+  margin-top: 5px;
+}
+
+.entry {
+  display: flex;
+  background: #184b5a;
+  padding: 15px;
+}
+
+.entry input {
+  flex-grow: 3;
+}
+
+input, button {
+  font-size: large;
+  padding: 5px;
+  font-family: "Open Sans", sans-serif !important;
+
+}
+
+.login {
+  margin: 15px;
+}
+
+.login input {
+  width: 300px;
+}
+
+h1 {
+  background: #184b5a;
+  padding: 25px;
+  color: white;
+  margin: 0;
+}
